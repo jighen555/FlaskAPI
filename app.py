@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_mysqldb import MySQL
 import json
+import qrcode
 
 app = Flask(__name__)
 
